@@ -1,0 +1,113 @@
+<html>
+<head>
+<style>
+*{margin:0px padding:0px; font-family:century Gothic; }
+header{
+      
+	  }
+.navsection{
+      display:
+      justify-content:left;
+	  align-items:center;
+	  
+}
+.logo{
+    width:40%;
+	color:#fff;
+	background-image:linear-gradient(#8d98e3 40%,#854fee 60%);
+	padding-left:100px;
+	box-sizing:border-box;
+}
+.logo h1{
+    text-transform:uppercase;
+	font-size:1.6rem;
+	animation:aagepiche 2s linear infinite;
+	animation-direction:alternate;
+}
+@keyframes aagepiche{
+from{padding-left: 40px;}
+to {padding-right: 40px;}
+
+
+}
+body{
+   background:url("best.jpg"); center no-repeat;
+   height:100vh;
+   background-size:cover;
+}
+
+.manudropdown1{
+width:75%;
+height:80px;
+margin:0px auto ;
+
+}
+
+.manudropdown1 ul{
+  padding:0px;
+ 
+
+}
+
+.manudropdown1 ul li{
+   float:right;  
+   background-color:black;
+   color:white;
+   width:200px;
+   height:50px;
+   line-height:50px;
+   font-size:20px;
+   text-align:center;
+   list-style:none;
+   opacity:0.6;
+}
+.manudropdown1 ul li ul{
+  display:none;
+}
+.manudropdown1 ul li:hover> ul{
+ display:block;
+}
+.manudropdown1 ul li:hover{
+  background-color:#32CD32;
+  opacity:0.9;
+}
+
+
+</style>
+</head>
+<body>
+<div class="manudropdown1">
+<header> 
+      <section class="navsection">
+       <div class="logo">
+	         <h1>NANDA DIGISEVA</h1>
+	   </div>
+
+
+</header>
+<ul>
+    <li> Contact
+	        <ul>
+			<li>Mob:9647857126</li>
+			<li>Email: bjana18@gmail.com</li>
+	    </ul>
+		</li>
+    
+	
+	<li> Services 
+	            <ul>
+	            <li>Banking</li>
+		        <li>Internet</li>
+		        <li>Exam</li>
+			    <li>Gasbooking</li> 
+			    <li>Recharge</li>
+	             </ul>
+				 </li>
+	<li> HOME</li>
+</div>
+
+</body>
+
+
+
+</html>
